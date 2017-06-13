@@ -140,6 +140,7 @@ if __name__ == '__main__':
 
         file_result.writelines(result_lines)
         file_log.write(str(total_nums)+'\n')
+        print('nums: ', total_nums)
         if end_flag:
             break
 
